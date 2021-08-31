@@ -1,0 +1,55 @@
+#text1{
+    position: absolute;
+    width: 358px;
+    height: 41px;
+    left: 501px;
+    top: 249px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#text2{
+position: absolute;
+width: 321px;
+height: 30px;
+left: 520px;
+top: 340px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#button{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 480px;
+    top: 420px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    border: none;
+    
+    background: #7CFF67;
+    border-radius: 50px;
+}
