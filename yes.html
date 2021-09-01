@@ -1,13 +1,119 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <link href="styleyes.css" rel="stylesheet">
+
+
+
+
+
+
+
+<style> 
+
+.text{
+position: absolute;
+left: 425px;
+top: 200px;
+font-family: Arial;
+font-size: 36px;
+}
+
+.button{
+position: absolute;
+width: 400px;
+height: 100px;
+left: 480px;
+top: 353px;
+background: #7CFF67;
+border-radius: 50px;
+border: none;
+font-size: 24px;
+text-align: center;
+}
+
+.pr{
+position: absolute;
+width: 500px;
+height: 50px;
+top: 300px;
+left: 430px;
+background: #535353;
+opacity: 0%;
+border-radius: 25px;
+animation: pr 2s;
+}
+.br{
+position: absolute;
+height: 40px;
+left: 435px;
+top: 305px;
+background: #7CFF67;
+opacity: 0%;
+border-radius: 20px;
+animation: br 2s;
+}
+
+.textbody{
+    opacity: 100%;
+    animation: textbody 2s;
+}
+
+@keyframes br {
+    0%{width: 40px; opacity: 1;}
+    99%{opacity: 1;}
+    100%{width: 490px; opacity: 0;}
+}
+
+@keyframes pr {
+    0%{opacity: 1;}
+    99%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes textbody {
+    0%{opacity: 0;}
+    99%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+</style>
 </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
-
-    <P id="text">ТЫ ПИДАРАС, ПОЗДРАВЛЯЮ</P>
-<a href="index.html">
-    <button id="button">НАЗАД</button>
-</a>
-
+    <div class="load">
+        <div class="pr"></div>
+        <div class="br"></div>
+    </div>
+    <div class="textbody">
+        <P class="text">ТЫ ПИДАРАС, ПОЗДРАВЛЯЮ</P>
+        <a href="index.html"><button class="button">НАЗАД</button></a>
+    </div>    
+    
 </body>
+
+
+
+
+
+
+
+
+
 </html>
